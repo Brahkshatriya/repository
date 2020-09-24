@@ -1,0 +1,45 @@
+.head_left {
+  justify-content: space-around;
+  text-align: right;
+}
+
+.Centre_site {
+  background-color: white;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+body {
+  text-align: center;
+}
+em {
+  color: blue;
+}
+.footer_haut {
+  text-align: left;
+  justify-content: space-around;
+  width: 700px;
+  height: 30px;
+  margin-left: 30px;
+}
+.footer_gauche {
+  text-align: left;
+  justify-content: space-around;
+  width: 700px;
+  height: 30px;
+}
+.footer_droit {
+  text-align: right;
+  justify-content: space-around;
+  width: 700px;
+  height: 30px;
+}
+.footer_droit,
+.footer_gauche {
+  display: inline-block;
+}
+
+footer {
+  background-color: lightgray;
+}
